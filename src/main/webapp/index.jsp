@@ -18,13 +18,22 @@
 		}
 	}
 	h1 {
-		animation : xxx 3s;
+		animation : xxx 10s;
 	}
 	
 </style>
 </head>
 <body>
-<h1>Virtual Tomcat Test</h1>
+<h1 id="tomcat">Virtual Tomcat Test</h1>
+
+ <script type="text/javascript">
+      tomcat.onclick = function() {
+    	  alert("Tomcat Click...");
+      };
+  </script>
 
 </body>
 </html>
+
+
+
